@@ -3,14 +3,11 @@
 ## preparations
 
 ```
-suod snap install docker 
-sudo apt-get install -y python3-pip make
+sudo apt-get install -y python3-pip make docker.io
 sudo pip3 install j2cli
 sudo addgroup --system docker
 sudo adduser $USER docker
 newgrp docker
-sudo snap disable docker
-sudo snap enable docker
 ```
 
 ## sources
