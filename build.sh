@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
 
-pip3 install j2cli
-
 if [[ ! -e sonic-buildimage ]]; then
     git clone https://github.com/sonic-net/sonic-buildimage.git
 fi
