@@ -21,7 +21,8 @@ make configure \
     SONIC_BUILD_JOBS=4 \
     SONIC_CONFIG_USE_NATIVE_DOCKERD_FOR_BUILD=y \
     SONIC_DPKG_CACHE_METHOD=rwcache \
-    SONIC_USE_DOCKER_BUILDKIT=y
+    SONIC_USE_DOCKER_BUILDKIT=y \
+    SONIC_IMAGE_VERSION=202211.0
 
 BLDENV=stretch make stretch
 make target/sonic-broadcom.bin
